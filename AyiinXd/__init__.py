@@ -471,7 +471,7 @@ with bot:
                              Button.url(get_string("help_7"),
                                         url=f"t.me/{botusername}?start="),
                              ],
-                             Button.url(get_string("help_11"),
+                             [Button.url(get_string("help_11"),
                                         url=f"t.me/night_userbot"),
                              ],
                             [Button.inline(get_string("help_8"),
