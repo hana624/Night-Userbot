@@ -179,7 +179,7 @@ async def bot_ver(event):
         )
 
 
-@ayiin_cmd(pattern="(?:alive|albyson)\\s?(.)?")
+@ayiin_cmd(pattern="(?:alive|nightson)\\s?(.)?")
 async def amireallyalive(alive):
     adB = AyiinDB()
     user = await alive.client.get_me()
@@ -187,7 +187,7 @@ async def amireallyalive(alive):
     await alive.edit("👻")
     await asyncio.sleep(3)
     output = (
-        f"**Tʜᴇ [ᴀʟʙʏ-ᴜsᴇʀʙᴏᴛ](https://github.com/PunyaAlby/ALBY-Userbot)**\n\n"
+        f"**Tʜᴇ [ɴɪɢʜᴛ-ᴜsᴇʀʙᴏᴛ](https://github.com/hana624/Night-Userbot)**\n\n"
         f"**{alive_text}**\n\n"
         f"╭✠╼━━━━━━━━━━━━━━━✠╮\n"
         f"{emoji} **BASE ON :** ••{adB.name}••\n"
@@ -196,8 +196,8 @@ async def amireallyalive(alive):
         f"{emoji} **BOT VERSION :** `{BOT_VER}` \n"
         f"{emoji} **PYTHON VERSION :** `{python_version()}` \n"
         f"{emoji} **TELETHON VERSION :** `{version.__version__}` \n"
-        f"{emoji} **PY-ALBY VERSION :** `{py_ver}`\n"
-        f"{emoji} **ALBY VERSION :** `{ayiin_version}` [{HOSTED_ON}]\n"
+        f"{emoji} **PY-NIGHT VERSION :** `{py_ver}`\n"
+        f"{emoji} **NIGHT VERSION :** `{ayiin_version}` [{HOSTED_ON}]\n"
         f"{emoji} **BOT UPTIME :** `{uptime}`\n"
         "╰✠╼━━━━━━━━━━━━━━━✠╯\n\n")
 
