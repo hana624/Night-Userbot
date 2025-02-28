@@ -36,8 +36,8 @@ try:
     LOGS.info(f"Python Version - {python_version()}")
     LOGS.info(f"Telethon Version - {version.__version__} [Layer: {LAYER}]")
     LOGS.info(f"PyTgCalls Version - {pytgcalls}")
-    LOGS.info(f"Night Userbot Version - {ubotversion} •[{adB.name}]•")
-    LOGS.info(f"Night Userbot Version - {ayiin_version} •[{HOSTED_ON}]•")
+    LOGS.info(f"Night Version - {ubotversion} •[{adB.name}]•")
+    LOGS.info(f"Night Version - {ayiin_version} •[{HOSTED_ON}]•")
     LOGS.info("[✨ BERHASIL DIAKTIFKAN! ✨]")
 except (ConnectionError, KeyboardInterrupt, NotImplementedError, SystemExit):
     pass
