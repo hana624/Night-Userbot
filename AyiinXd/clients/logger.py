@@ -39,7 +39,7 @@ async def startupmessage(tgbot):
         if BOTLOG:
             await tgbot.send_file(
                 BOTLOG_CHATID,
-                "https://telegra.ph/file/cbe826936d4de9ec1838a.jpg",
+                "https://graph.org/file/714e51c0417a6c83e686d-492e000414e75365a2.jpg",
                 caption=MSG_ON.format(py_ver, HOSTED_ON, version, branch, cmd),
                 buttons=[(Button.url("ꜱᴜᴘᴘᴏʀᴛ", "https://t.me/night_userbot"),)],
             )
