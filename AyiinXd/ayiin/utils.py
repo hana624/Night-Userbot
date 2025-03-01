@@ -77,7 +77,7 @@ async def autopilot():
     channel = get_peer_id(chat)
     if isinstance(chat.photo, ChatPhotoEmpty):
         photo = await download_file(
-            "https://files.catbox.moe/qra7pc.jpg", "AyiinXd/resources/Night.jpg"
+            "https://telegra.ph/file/32d2f5fde6434fb280415-6e5438247f11d55fad.jpg", "AyiinXd/resources/Night.jpg"
         )
         ll = await bot.upload_file(photo)
         try:
